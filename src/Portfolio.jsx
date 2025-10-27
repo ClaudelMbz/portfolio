@@ -157,14 +157,14 @@ const Portfolio = () => {
           {
             name: 'CS50 Introduction to Artificial Intelligence with Python',
             institution: 'Harvard University',
-            date: 'March 2024',
+            date: 'July 2025',
             link: null,
             image: cs50aiImg,
             download: false
           },
           {
             name: 'AWS BNB Node Runners',
-            institution: 'Amazon Web Services',
+            institution: 'Binance',
             date: 'January 2024',
             link: null,
             image: awsImg,
@@ -305,17 +305,17 @@ const Portfolio = () => {
           {
             name: 'CS50 Introduction à l\'Intelligence Artificielle avec Python',
             institution: 'Université Harvard',
-            date: 'Mars 2024',
+            date: 'Juillet 2025',
             link: null,
-            image: '/CS50AI.png',
+            image: cs50aiImg,
             download: false
           },
           {
             name: 'AWS BNB Node Runners',
-            institution: 'Amazon Web Services',
+            institution: 'Binance',
             date: 'Janvier 2024',
             link: null,
-            image: '/awsbnbrunners.jpg',
+            image: awsImg,
             download: false
           }
         ]
