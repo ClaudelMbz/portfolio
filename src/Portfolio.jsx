@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Download, Github, Linkedin, Mail, ChevronRight, ExternalLink } from 'lucide-react';
 
+import avatarImg from '/avatar.jpg';
+import cs50xImg from '/CS50x.png';
+import cs50aiImg from '/CS50AI.png';
+import awsImg from '/awsbnbrunners.jpg';
+
 const Portfolio = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('bio');
@@ -146,7 +151,7 @@ const Portfolio = () => {
             institution: 'Harvard University',
             date: 'December 2023',
             link: null,
-            image: '/CS50x.png',
+            image: cs50xImg,
             download: false
           },
           {
@@ -154,7 +159,7 @@ const Portfolio = () => {
             institution: 'Harvard University',
             date: 'March 2024',
             link: null,
-            image: '/CS50AI.png',
+            image: cs50aiImg,
             download: false
           },
           {
@@ -162,7 +167,7 @@ const Portfolio = () => {
             institution: 'Amazon Web Services',
             date: 'January 2024',
             link: null,
-            image: '/awsbnbrunners.jpg',
+            image: awsImg,
             download: false
           }
         ]
@@ -425,7 +430,7 @@ const Portfolio = () => {
               <div className="w-64 h-64 mx-auto md:mx-0 mb-8 rounded-full bg-gradient-to-br from-emerald-400 to-emerald-600 p-1">
                 <div className="w-full h-full rounded-full overflow-hidden">
                   <img 
-                    src="/avatar.jpg" 
+                    src={avatarImg} 
                     alt="Claudel Mubenzem" 
                     className="w-full h-full object-cover"
                   />
