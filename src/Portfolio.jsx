@@ -25,7 +25,7 @@ const Portfolio = () => {
       hero: {
         name: 'Claudel Mubenzem',
         title: 'Aspiring AI & Automation Engineer',
-        status: '🔧 Engineering Student',
+        status: 'Looking for an Apprenticeship in Data & Project Engineering',
         downloadCV: 'Download CV'
       },
       about: {
@@ -186,7 +186,7 @@ const Portfolio = () => {
       hero: {
         name: 'Claudel Mubenzem',
         title: 'Ingénieur IA & Automatisation en devenir',
-        status: '🔧 Étudiant en Ingénierie',
+        status: 'En recherche d\'alternance Data & Ingenieur Projet',
         downloadCV: 'Télécharger CV'
       },
       about: {
