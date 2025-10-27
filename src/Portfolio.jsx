@@ -5,6 +5,7 @@ import avatarImg from '/avatar.jpg';
 import cs50xImg from '/CS50x.png';
 import cs50aiImg from '/CS50AI.png';
 import awsImg from '/awsbnbrunners.jpg';
+import cvFile from '/resumé.pdf';
 
 const Portfolio = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -459,10 +460,14 @@ const Portfolio = () => {
                   <Linkedin size={20} />
                   LinkedIn
                 </a>
-                <button className="px-6 py-3 bg-gray-800 hover:bg-gray-700 rounded-lg font-medium transition-all hover:scale-105 flex items-center gap-2">
+                <a
+                  href={cvFile}
+                  download="Claudel_Mubenzem_CV.pdf"
+                  className="px-6 py-3 bg-gray-800 hover:bg-gray-700 rounded-lg font-medium transition-all hover:scale-105 flex items-center gap-2"
+                >
                   <Download size={20} />
                   {t.hero.downloadCV}
-                </button>
+                </a>
                 <a
                   href="https://github.com"
                   target="_blank"
